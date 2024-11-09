@@ -23,9 +23,9 @@ def Multiply(a, b):
 def result(n1, n2):
     results = {
         'add': add(n1, n2),
-        'div': div(n1, n2)
-        'Multiply': Multiply(n1, n2)
-        'remainder': remainder(n1, n2)
+        'div': div(n1, n2),
+        'Multiply': Multiply(n1, n2),
+        'remainder': remainder(n1, n2),
         'sub': sub(n1, n2)
 
         
