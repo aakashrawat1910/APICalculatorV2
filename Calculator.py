@@ -11,7 +11,11 @@ def sub(a, b):
 def remainder(a, b):
     return a % b 
 def Multiply(a, b):
-    return a * b 
+    return a * b
+def Power(a,b):
+    
+    return a**b
+    
 
 #Sub - Reshma
 #Multiplication - Kalyan
@@ -26,8 +30,8 @@ def result(n1, n2):
         'div': div(n1, n2),
         'Multiply': Multiply(n1, n2),
         'remainder': remainder(n1, n2),
-        'sub': sub(n1, n2)
-
+        'sub': sub(n1, n2),
+        'Power': Power(n1, n2)
         
 
     }
