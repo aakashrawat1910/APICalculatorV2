@@ -4,6 +4,8 @@ app=Flask(__name__)
 
 def add(a, b):
     return a + b
+def sub(a, b):
+    return a - b
 
 #Sub - Reshma
 #Multiplication - Kalyan
@@ -17,6 +19,8 @@ def result(n1, n2):
     results = {
         'add': add(n1, n2),
         'remainder': remainder(n1, n2)
+        'sub': sub(n1, n2)
+
         
     }
     return jsonify(results)
